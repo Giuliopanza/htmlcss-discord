@@ -162,29 +162,54 @@ main #flex-container-2{
 }
 
 footer{
-    height: 50vh;
+    height: 70vh;
     background-color: black;
 }
 
 .flex-container-1 #text-3{
-    background-color: yellow;
-    height: 100px;
-    width: 200px;
-    margin-top: 20px;
+    height: 20vh;
+    width: 20%;
+    margin-top: 5vh;
+}
+
+.flex-container-1 #text-3 h1{
+    color: blue;
+    margin-bottom: 3vh;
+}
+
+.flex-container-1 #text-3 img{
+    height: 4vh;
+    width: 10%;
+    display: inline-block;
+}
+
+.flex-container-1 #text-3 span{
+    color: white;
+}
+
+.flex-container-1 ul{
+    list-style-type: none;
+}
+
+.flex-container-1 ul :first-child{
+    color: blue;
+}
+
+.flex-container-1 li{
+    margin: 1vh 0;
+    color: white;
 }
 
 .flex-container-1 .column-1{
-    background-color: red;
-    height: 100px;
-    width: 50px;
-    margin-top: 20px;
+    height: 40vh;
+    width: 20%;
+    margin-top: 5vh;
 }
 
 .flex-container-1 #column-2{
-    background-color: blue;
-    height: 200px;
-    width: 50px;
-    margin-top: 20px;
+    height: 50vh;
+    width: 20%;
+    margin-top: 5vh;
 }
 
 footer .flex-container-1{
@@ -192,15 +217,26 @@ footer .flex-container-1{
 }
 
 footer #flex-container-3{
-    height: 50px;
-    background-color: gray;
-    margin: 10px 50px;
+    height: 10vh;
+    width: 80%;
+    margin: 2vh auto;
     align-items: center;
     justify-content: space-between;
 }
 
+hr{
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    width: 90%;
+    margin: auto;    
+}
+
 #flex-container-3 #button-5{
-    height: 30px;
-    width: 50px;
-    background-color: yellow;
+    background-color: blue;
+    color: white;
+    height: 4vh;
+    width: 10%;
+    border-radius: 40%;
+    margin: auto 0;
 }
